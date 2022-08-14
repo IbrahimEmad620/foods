@@ -1,0 +1,318 @@
+html{
+    font-family: 'Lato';
+    font-size: 18px;
+}
+
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)) , url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    height: 100px;
+    margin-top: 20px; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+}
+
+.main-nav li{
+    margin-right: 40px;
+}
+
+.main-nav li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav li a:hover{
+    color: orange;
+}
+
+.hero{
+    width: 60%;
+    padding-top: 95px;
+}
+
+h1{
+    font-size: 2rem;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    line-height: 1.5;
+    color: white;
+}
+
+.hero a{
+    color: orange;
+    margin-right: 20px;
+    text-decoration: none;
+    border: solid 1px orange;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+.hero a:hover{
+    color: white;
+    background-color: orange;
+}
+
+section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 10%;
+    border: solid 1px orange;
+    margin-bottom: 40px;
+}
+
+.p1{
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.feat i{
+    text-align: center;
+    color: orange;
+    font-size: 36px;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.feat p{
+    font-size: 1rem;
+    word-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.meal{
+    padding: 0;
+    margin-bottom: -5px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.meal img{
+     opacity: .5;
+     transition: 1s;
+     transform: scale(1.1);
+}
+
+.meal img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.left-step{
+    text-align: right;
+}
+.left-step img{
+    width: 40%;
+}
+
+.right-step{
+    padding-top: 100px;
+}
+
+.step{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.step div{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border: solid 2px orange;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.right-step a{
+    margin-right: 30px;
+}
+
+.right-step img{
+    height: 50px;
+}
+
+.city-info{
+    display: flex;
+    align-items: center;
+}
+
+.city-info i{
+    color: orange;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#testimonials{
+    background: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)) , url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#testimonials h2{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#testimonials i{
+    color: white;
+    font-size: 35px;
+}
+
+#testimonials p{
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#testimonials img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+form{
+    padding-top: 20px;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type=text] ,
+input[type=email] ,
+select , textarea
+{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.name{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.email{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.select{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+input[type=checkbox]
+{
+margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    border: 1px solid orangered;
+    border-radius: 30px;
+    background-color: orange;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: orange;
+}
+
+footer{
+    padding: 30px 0px;
+    background-color: #333;
+    text-align: center;
+    color: #ccc;
+    justify-content: space-between;
+}
+
+footer p{
+    margin-top: 30px;
+    text-align: center;
+    color: #ccc;
+}
+
+.footer-nav , .social-nav
+{
+    display: flex;
+    list-style: none;
+}
+
+.footer-nav li , .social-nav li{
+    margin-right: 40px;
+}
+
+.footer-nav li a , .social-nav li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer-nav li a:hover{
+    color: orange;
+}
+
+.social-nav{
+    float: right;
+}
+
+.social-nav li i:hover{
+    color: orange;
+}
